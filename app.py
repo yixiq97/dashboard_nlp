@@ -321,6 +321,7 @@ issue_topic = 'topic 6'
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
+server = app.server
 
 
 # In[204]:
